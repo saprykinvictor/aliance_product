@@ -175,6 +175,10 @@ body {
   border-bottom: 1px solid var(--sep);
 }
 
+.logo {
+  display: none;
+}
+
 .navbar-light .header-logo-path {
   fill: #292d33;
 }
@@ -274,11 +278,13 @@ body {
   height: 100%;
   flex-basis: 50%;
   cursor: pointer;
-  border: 1px solid var(--sep-opacity);
 }
 
 .slider-button-prev {
+  border-right: 1px solid var(--sep-opacity);
+
 }
+
 
 /* =========Steps====== */
 
