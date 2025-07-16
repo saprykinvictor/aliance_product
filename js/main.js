@@ -41,8 +41,34 @@ mobMenuToggle.addEventListener('click', (event) => {
   menu.classList.contains('is-open') ? closeMenu() : openMenu();
 });
 
+const swiperSteps = new Swiper('.steps-slider', {
+  speed: 700,
+  loop: true,
+  slidesPerView: 1,
 
-const swiper = new Swiper('.swiper', {
+  breakpoints: {
+
+    576: {
+      slidesPerView: 2,
+
+    },
+    768: {
+      slidesPerView: 3,
+    },
+    1024: {
+      slidesPerView: 4,
+    },
+
+  },
+
+  navigation: {
+    nextEl: '.steps-button-next',
+    prevEl: '.steps-button-prev',
+  }
+});
+
+
+const swiper = new Swiper('.advantages-slider', {
   speed: 700,
   slidesPerView: 1,
   loop: true,
