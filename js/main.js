@@ -95,3 +95,26 @@ const swiper = new Swiper('.advantages-slider', {
     prevEl: '.slider-button-prev',
   },
 });
+
+
+const swiperBlog = new Swiper('.blog-slider', {
+  speed: 700,
+  loop: true,
+  slidesPerView: 1,
+  spaceBetween: 40,
+
+  breakpoints: {
+
+    991: {
+      slidesPerView: 2,
+
+    },
+ 
+
+  },
+
+  navigation: {
+    nextEl: '.blog-button-next',
+    prevEl: '.blog-button-prev',
+  }
+});
