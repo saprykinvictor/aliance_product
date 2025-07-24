@@ -105,3 +105,17 @@ const swiperBlog = new Swiper('.blog-slider', {
     prevEl: '.blog-button-prev',
   },
 });
+
+
+// Modal
+
+const closeBtn = document.querySelector('.modal__close');
+
+const modalInput = document.querySelectorAll('.modal-input');
+
+closeBtn.addEventListener('click', () => {
+  console.log(modalInput.values);
+  
+  modalInput.values = '';
+})
+

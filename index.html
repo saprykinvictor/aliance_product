@@ -126,7 +126,7 @@
         </svg>
         <a href="tel:+74996861014" class="header__phone-link">+7 (499) 686-10-14</a>
       </div>
-      <button class="header__button btn">
+      <button class="header__button btn" popovertarget="modal">
         <svg class="button-svg" width="16" height="17">
           <use href="img/sprite.svg#phone"></use>
         </svg>
@@ -623,7 +623,6 @@
                   информации!
                 </p>
               </div>
-
             </div>
           </form>
         </div>
@@ -727,6 +726,46 @@
       </div>
     </div>
   </footer>
+
+    <div class="modal" id="modal" popover>
+      <div class="modal__heading">
+        <h2 class="modal__title">Есть вопросы?</h2>
+        <button class="modal__close" popovertarget="modal">
+          <svg class="notify-icon" width="50" height="50">
+            <use href="img/sprite.svg#close"></use>
+          </svg>
+        </button>
+      </div>
+      <p class="modal__text">
+        Оставьте заявку, наш менеджер свяжется с Вами в ближайшее время ответит на все интересующие вопросы и
+        поможем даже в
+        самых сложных случаях!
+      </p>
+      <form action="#" class="modal__form">
+        <div class="modal__form-inputs">
+          <div class="modal__form-input">
+            <input id="modal-user-name" type="text" class="modal__input" placeholder="">
+            <label class="modal__input-label" for="modal-user-name">Имя</label>
+          </div>
+          <div class="modal__form-input">
+            <input id="modal-user-phone" type="tel" class="modal__input" placeholder="">
+            <label class="modal__input-label" for="modal-user-phone">Номер телефона</label>
+          </div>
+        </div>
+        <div class="modal__form-actions">
+          <button class="modal__form-btn btn" type="submit">Отправить заявку</button>
+          <div class="modal__form-notify">
+            <svg class="notify-icon" width="14" height="14">
+              <use href="img/sprite.svg#shield"></use>
+            </svg>
+            <p>
+              Обращаясь к нам вы получаете не только профессиональную работу, но и абсолютную конфиденциальность
+              информации!
+            </p>
+          </div>
+        </div>
+      </form>
+    </div>
 
   <script src="js/swiper-bundle.min.js"></script>
   <script src="js/main.js"></script>
