@@ -186,8 +186,9 @@ body {
   width: 460px;
   border: none;
   opacity: 1;
+  transform: translateY(0);
   translate: 0;
-  transition: opacity 0.7s allow-discrete;
+  transition: opacity .7s ease-in-out;
 
 }
 
@@ -223,9 +224,6 @@ body {
   font-size: 16px;
   line-height: 160%;
   color: var(--txt2);
-}
-
-.modal__form {
 }
 
 .modal__form-inputs {
@@ -1819,5 +1817,37 @@ body {
 
   .footer__logo-svg {
     max-width: 160px;
+  }
+
+  .modal {
+    padding: 30px;
+    width: 345px;
+  }
+
+  .modal__title {
+    font-size: 40px;
+  }
+  
+  .modal__heading {
+    margin-bottom: 10px;
+  }
+
+  .modal__heading {
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+  
+  .modal__form-inputs {
+    margin-bottom: 20px;
+    gap: 20px;
+  }
+
+  .modal__form-actions {
+    gap: 18px;
+  }
+
+  .modal__close svg {
+    width: 40px;
+    height: 40px;
   }
 }
