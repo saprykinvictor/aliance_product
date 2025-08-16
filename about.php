@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,6 +15,7 @@
   <link rel="stylesheet" href="css/style.css">
 
 </head>
+
 <body>
   <nav class="mobile-menu">
     <ul class="mobile-menu-list">
@@ -105,7 +107,7 @@
       </a>
       <ul class="header__nav-list">
         <li class="header__nav-item">
-          <a href="#!" class="header__nav-link">О компании</a>
+          <a href="about.php" class="header__nav-link">О компании</a>
         </li>
         <li class="header__nav-item">
           <a href="#!" class="header__nav-link">Контрактное производство</a>
@@ -138,24 +140,24 @@
         <span class="page-header__line"></span>
         <h1 class="page-header__title">о компании</h1>
         <div class="page-header__breadcrumbs">
-            <ul class="breadcrumbs__list">
-              <li class="breadcrumbs__item">
-                <a class="breadcrumbs__link" href="index.html">Главная</a>
-                <span></span>
-              </li>
+          <ul class="breadcrumbs__list">
+            <li class="breadcrumbs__item">
+              <a class="breadcrumbs__link" href="index.html">Главная</a>
+              <span></span>
+            </li>
 
-              <li class="breadcrumbs__item">
-                <a class="breadcrumbs__link" href="#!">О компании</a>
-                <span></span>
-              </li>
-            </ul>
+            <li class="breadcrumbs__item">
+              <a class="breadcrumbs__link" href="#!">О компании</a>
+              <span></span>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
 
- 
 
-    
+
+
     <!-- <div class="header__heading page-header page-header-img">
       <div class="container">
         <div class="header__heading-box">
@@ -212,170 +214,169 @@
   </header>
   <main>
 
-      <section class="experts">
-        <div class="container">
-          <div class="experts__main">
-            <div class="experts__image">
-              <img class="experts-image-img" src="./img/abuut/about-experts.jpg" alt="" width="" height="" loading="lazy" />
-            </div>
-            <div class="experts__descr">
-              <h2 class="chemistry__title section-title">мы - эксперты в области производства химии</h2>
-              <p class="experts__text">
-                Разнообразный и богатый опыт говорит нам, что перспективное планирование однозначно фиксирует необходимость
-                поставленных
-                обществом задач! Есть над чем задуматься: ключевые особенности структуры проекта могут быть объединены в целые
-                кластеры
-                себе подобных. Интерактивные прототипы, которые представляют собой яркий пример континентально-европейского
-                типа
-                политической культуры, будут описаны максимально подробно. Значимость этих проблем настолько очевидна, что
-                перспективное
-                планирование играет важную роль в формировании системы массового участия.
-              </p>
-            </div>
+    <section class="experts">
+      <div class="container">
+        <div class="experts__main">
+          <div class="experts__image">
+            <img class="experts-image-img" src="./img/abuut/about-experts.jpg" alt="" width="" height="" loading="lazy" />
           </div>
-          <div class="experts__details">
-            <div class="swiper experts-slider">
-              <ul class="swiper-wrapper experts__list">
-                <li class="experts__item swiper-slide">
-                  <div class="experts__item-icon">
-                    <svg class="ex1" width="21" height="28">
-                      <use href="img/sprite.svg#ex1"></use>
-                    </svg>
-                  </div>
-                  <p class="experts__item-text">
-                    Непрерывная работа<br>c 2017 года
-                  </p>
-      
-                </li>
-                <li class="experts__item swiper-slide">
-                  <div class="experts__item-icon">
-                    <svg class="ex2" width="29" height="29">
-                      <use href="img/sprite.svg#ex2"></use>
-                    </svg>
-                  </div>
-                  <p class="experts__titem-ext">
-                    Вся продукция сертифицирована
-                  </p>
-                </li>
-                <li class="experts__item swiper-slide">
-                  <div class="experts__item-icon">
-                    <svg class="ex3" width="25" height="28">
-                      <use href="img/sprite.svg#ex3"></use>
-                    </svg>
-                  </div>
-                  <p class="experts__item-text">
-                    Контроль качества<br>на всех этапах
-                  </p>
-                </li>
-                <li class="experts__item swiper-slide">
-                  <div class="experts__item-icon">
-                    <svg class="ex4" width="35" height="26">
-                      <use href="img/sprite.svg#ex4"></use>
-                    </svg>
-                  </div>
-                  <p class="experts__item-text">
-                    Возможны поставки<br>по всей России.
-                  </p>
-                </li>
-                <li class="experts__item swiper-slide">
-                  <div class="experts__item-icon">
-                    <svg class="ex5" width="32" height="25">
-                      <use href="img/sprite.svg#ex5"></use>
-                    </svg>
-                  </div>
-                  <p class="experts__item-text">
-                    Оперативное<br>производство
-                  </p>
-                </li>
-              </ul>
-              <div class="experts-buttons primary-buttons">
-                <div class="experts-button-prev">
-                  <svg class="exp-icon-left" width="31" height="16">
-                    <use href="img/sprite.svg#expbtn-left"></use>
+          <div class="experts__descr">
+            <h2 class="chemistry__title section-title">мы - эксперты в области производства химии</h2>
+            <p class="experts__text">
+              Разнообразный и богатый опыт говорит нам, что перспективное планирование однозначно фиксирует необходимость
+              поставленных
+              обществом задач! Есть над чем задуматься: ключевые особенности структуры проекта могут быть объединены в целые
+              кластеры
+              себе подобных. Интерактивные прототипы, которые представляют собой яркий пример континентально-европейского
+              типа
+              политической культуры, будут описаны максимально подробно. Значимость этих проблем настолько очевидна, что
+              перспективное
+              планирование играет важную роль в формировании системы массового участия.
+            </p>
+          </div>
+        </div>
+        <div class="experts__details">
+          <div class="swiper experts-slider">
+            <ul class="swiper-wrapper experts__list">
+              <li class="experts__item swiper-slide">
+                <div class="experts__item-icon">
+                  <svg class="ex1" width="21" height="28">
+                    <use href="img/sprite.svg#ex1"></use>
                   </svg>
                 </div>
-                <div class="experts-button-next">
-                  <svg class="exp-icon-right" width="31" height="16">
-                    <use href="img/sprite.svg#expbtn-right"></use>
+                <p class="experts__item-text">
+                  Непрерывная работа<br>c 2017 года
+                </p>
+
+              </li>
+              <li class="experts__item swiper-slide">
+                <div class="experts__item-icon">
+                  <svg class="ex2" width="29" height="29">
+                    <use href="img/sprite.svg#ex2"></use>
                   </svg>
                 </div>
+                <p class="experts__titem-ext">
+                  Вся продукция сертифицирована
+                </p>
+              </li>
+              <li class="experts__item swiper-slide">
+                <div class="experts__item-icon">
+                  <svg class="ex3" width="25" height="28">
+                    <use href="img/sprite.svg#ex3"></use>
+                  </svg>
+                </div>
+                <p class="experts__item-text">
+                  Контроль качества<br>на всех этапах
+                </p>
+              </li>
+              <li class="experts__item swiper-slide">
+                <div class="experts__item-icon">
+                  <svg class="ex4" width="35" height="26">
+                    <use href="img/sprite.svg#ex4"></use>
+                  </svg>
+                </div>
+                <p class="experts__item-text">
+                  Возможны поставки<br>по всей России.
+                </p>
+              </li>
+              <li class="experts__item swiper-slide">
+                <div class="experts__item-icon">
+                  <svg class="ex5" width="32" height="25">
+                    <use href="img/sprite.svg#ex5"></use>
+                  </svg>
+                </div>
+                <p class="experts__item-text">
+                  Оперативное<br>производство
+                </p>
+              </li>
+            </ul>
+            <div class="experts-buttons primary-buttons">
+              <div class="experts-button-prev">
+                <svg class="exp-icon-left" width="31" height="16">
+                  <use href="img/sprite.svg#expbtn-left"></use>
+                </svg>
+              </div>
+              <div class="experts-button-next">
+                <svg class="exp-icon-right" width="31" height="16">
+                  <use href="img/sprite.svg#expbtn-right"></use>
+                </svg>
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section class="products">
-        <div class="container">
-          <h2 class="products__title section-title">Наше производство</h2>
-          <div class="products__wrapper">
-            <div class="products__descr">
-                <div class="products__text">
-                  <p>
-                    Предварительные выводы неутешительны: разбавленное изрядной долей эмпатии, рациональное мышление обеспечивает широкому
-                    кругу (специалистов) участие в формировании глубокомысленных рассуждений. Но граница обучения кадров создаёт
-                    необходимость включения в производственный план целого ряда внеочередных мероприятий с учётом комплекса кластеризации
-                    усилий.
-                  </p>
-                  <p>
-                    Реализация намеченных плановых заданий, а также свежий взгляд на привычные вещи - безусловно открывает новые горизонты
-                    для соответствующих условий активизации. Предварительные выводы неутешительны: экономическая повестка сегодняшнего дня
-                    требует анализа анализа существующих паттернов поведения.
-                  </p>
-                </div>
-                <ul class="products-list">
-                  <li class="products-item">
-                    <svg class="products-icon" width="30" height="30">
-                      <use href="img/sprite.svg#prod1"></use>
-                    </svg>
-                    <p class="products-text">Автомобильная химия</p>
-                  </li>
-                  <li class="products-item">
-                    <svg class="products-icon" width="30" height="30">
-                      <use href="img/sprite.svg#prod2"></use>
-                    </svg>
-                    <p class="products-text">Бытовая химия</p>
-                  </li>
-                  <li class="products-item">
-                    <svg class="products-icon" width="30" height="30">
-                      <use href="img/sprite.svg#prod3"></use>
-                    </svg>
-                    <p class="products-text">Дезинфицирующие средства</p>
-                  </li>
-                  <li class="products-item">
-                    <svg class="products-icon" width="30" height="30">
-                      <use href="img/sprite.svg#prod4"></use>
-                    </svg>
-                    <p class="products-text">Пищевые аэрозоли</p>
-                  </li>
-                  <li class="products-item">
-                    <svg class="products-icon" width="30" height="30">
-                      <use href="img/sprite.svg#prod5"></use>
-                    </svg>
-                    <p class="products-text">Косметическая продукция</p>
-                  </li>
-                  <li class="products-item">
-                    <svg class="products-icon" width="30" height="30">
-                      <use href="img/sprite.svg#prod6"></use>
-                    </svg>
-                    <p class="products-text">Краски аэрозольные</p>
-                  </li>
-                  
-                </ul>
+    <section class="products">
+      <div class="container">
+        <h2 class="products__title section-title">Наше производство</h2>
+        <div class="products__wrapper">
+          <div class="products__descr">
+            <div class="products__text">
+              <p>
+                Предварительные выводы неутешительны: разбавленное изрядной долей эмпатии, рациональное мышление обеспечивает широкому
+                кругу (специалистов) участие в формировании глубокомысленных рассуждений. Но граница обучения кадров создаёт
+                необходимость включения в производственный план целого ряда внеочередных мероприятий с учётом комплекса кластеризации
+                усилий.
+              </p>
+              <p>
+                Реализация намеченных плановых заданий, а также свежий взгляд на привычные вещи - безусловно открывает новые горизонты
+                для соответствующих условий активизации. Предварительные выводы неутешительны: экономическая повестка сегодняшнего дня
+                требует анализа анализа существующих паттернов поведения.
+              </p>
             </div>
-            <div class="products__image">
-              <img
-              class="products__image-img" 
-              src="./img/abuut/products-img.jpg" 
-              alt="" 
-              width="" 
-              height="" 
-              loading="lazy" 
-              />
-            </div>
+            <ul class="products-list">
+              <li class="products-item">
+                <svg class="products-icon" width="30" height="30">
+                  <use href="img/sprite.svg#prod1"></use>
+                </svg>
+                <p class="products-text">Автомобильная химия</p>
+              </li>
+              <li class="products-item">
+                <svg class="products-icon" width="30" height="30">
+                  <use href="img/sprite.svg#prod2"></use>
+                </svg>
+                <p class="products-text">Бытовая химия</p>
+              </li>
+              <li class="products-item">
+                <svg class="products-icon" width="30" height="30">
+                  <use href="img/sprite.svg#prod3"></use>
+                </svg>
+                <p class="products-text">Дезинфицирующие средства</p>
+              </li>
+              <li class="products-item">
+                <svg class="products-icon" width="30" height="30">
+                  <use href="img/sprite.svg#prod4"></use>
+                </svg>
+                <p class="products-text">Пищевые аэрозоли</p>
+              </li>
+              <li class="products-item">
+                <svg class="products-icon" width="30" height="30">
+                  <use href="img/sprite.svg#prod5"></use>
+                </svg>
+                <p class="products-text">Косметическая продукция</p>
+              </li>
+              <li class="products-item">
+                <svg class="products-icon" width="30" height="30">
+                  <use href="img/sprite.svg#prod6"></use>
+                </svg>
+                <p class="products-text">Краски аэрозольные</p>
+              </li>
+
+            </ul>
+          </div>
+          <div class="products__image">
+            <img
+              class="products__image-img"
+              src="./img/abuut/products-img.jpg"
+              alt=""
+              width=""
+              height=""
+              loading="lazy" />
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
     <section class="founder">
       <div class="founder-photo">
@@ -433,9 +434,9 @@
         </div>
       </div>
       <div class="swiper center-slider">
-      
+
         <div class="swiper-wrapper center-slider-wrapper">
-      
+
           <div class="swiper-slide center-slide">
             <img src="./img/blog/blog1.jpg" alt="" class="center-slide__image">
           </div>
@@ -449,7 +450,7 @@
             <img src="./img/blog/blog2.jpg" alt="" class="center-slide__image">
           </div>
         </div>
-      
+
         <div class="container">
           <div class="center__footer">
             <div class="center-buttons primary-buttons">
@@ -576,183 +577,53 @@
 
 
 
-    <section class="cta">
-      <div class="bg-gray">
-        <img src="./img/cta.png" alt="аэрозольный баллон со смазкой" class="cta-image">
-        <div class="cta__form-wrapper container">
-          <form action="#" class="cta__form">
-            <h2 class="cta__form-title">Хотите сотрудничать?</h2>
-            <p class="cta__form-text">
-              Оставьте заявку, наш менеджер свяжется с Вами в ближайшее время ответит на все интересующие вопросы и
-              поможем даже в
-              самых сложных случаях!
-            </p>
-            <div class="cta__form-inputs">
-              <div class="cta__form-input">
-                <input id="user-name" type="text" class="input" placeholder="">
-                <label class="input-label" for="user-name">Имя</label>
-              </div>
-              <div class="cta__form-input">
-                <input id="user-phone" type="tel" class="input" placeholder="">
-                <label class="input-label" for="user-phone">Номер телефона</label>
-              </div>
-            </div>
-            <div class="cta__form-actions">
-              <button class="cta__form-btn btn" type="submit">Отправить заявку</button>
-              <div class="cta__form-notify">
-                <svg class="notify-icon" width="14" height="14">
-                  <use href="img/sprite.svg#shield"></use>
-                </svg>
-                <p>
-                  Обращаясь к нам вы получаете не только профессиональную работу, но и абсолютную конфиденциальность
-                  информации!
-                </p>
-              </div>
-            </div>
-          </form>
-        </div>
-      </div>
-    </section>
+    <?php include_once('footer.php'); ?>
 
   </main>
-  <footer class="footer">
-    <div class="container">
-      <div class="footer__top">
-        <a href="./" class="footer__logo" aria-label="Logo of Aliance">
-          <svg class="footer__logo-svg" width="200" height="62">
-            <use href="img/sprite.svg#logo-dark"></use>
-          </svg>
-        </a>
 
-        <div class="footer-info info">
-          <div class="footer-menu__phone info-phone">
-            <a href="tel:+74996861014" class="footer-menu__phone-link info-phone-link">+7 (499) 686-10-14</a>
-          </div>
-          <address class="footer-menu__address info-address">
-            <svg class="map-svg" width="12" height="17">
-              <use href="img/sprite.svg#map"></use>
-            </svg>
-            <p>г. Мосвка, Холодильный пер. 4к1с8</p>
-          </address>
-          <div class="footer-menu__mail info-mail">
-            <svg class="mail-svg" width="16" height="12">
-              <use href="img/sprite.svg#mail"></use>
-            </svg>
-            <a href="mailto:a.dragunov@tdaliance.ru">a.dragunov@tdaliance.ru</a>
-          </div>
-          <div class="footer-menu__soc1al info-soc1al">
-            <a href="#!">
-              <svg class="vk-svg" width="24" height="24">
-                <use href="img/sprite.svg#vk"></use>
-              </svg>
-            </a>
-            <a href="#!">
-              <svg class="inst-svg" width="24" height="24">
-                <use href="img/sprite.svg#inst"></use>
-              </svg>
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="footer__main">
-        <nav class="footer__menu">
-          <ul class="footer__menu-list">
 
-            <li class="footer__menu-item">
-              <a href="#!" class="footer__menu-link">Контрактное производство</a>
-              <ul class="footer__submenu">
-                <li class="footer__submenu-item">
-                  <a href="#!">Автомобильная химия</a>
-                </li>
-                <li class="footer__submenu-item">
-                  <a href="#!">Бытовая химия</a>
-                </li>
-                <li class="footer__submenu-item">
-                  <a href="#!">Дезинфицирующие средства</a>
-                </li>
-                <li class="footer__submenu-item">
-                  <a href="#!">Пищевые аэрозоли</a>
-                </li>
-                <li class="footer__submenu-item">
-                  <a href="#!">Косметическая продукция</a>
-                </li>
-                <li class="footer__submenu-item">
-                  <a href="#!">Краски аэрозольные</a>
-                </li>
-              </ul>
-            </li>
-            <li class="footer__menu-item">
-              <a href="#!" class="footer__menu-link">Собственные марки</a>
-              <ul class="footer__submenu">
-                <li class="footer__submenu-item"><a href="#!">Автохимия AG-Tech</a></li>
-                <li class="footer__submenu-item"><a href="#!">Автохимия AP</a></li>
-              </ul>
-            </li>
-            <ul class="footer__menu-pages">
-              <li class="footer__menu-item">
-                <a href="#!" class="footer__menu-link">О компании</a>
-              </li>
-              <li class="footer__menu-item">
-                <a href="#!" class="footer__menu-link">Новости</a>
-              </li>
-              <li class="footer__menu-item">
-                <a href="#!" class="footer__menu-link">Контакты</a>
-              </li>
-            </ul>
-          </ul>
-        </nav>
-      </div>
-      <div class="footer__bottom">
-        <p class="footer__copyright">&copy; 2022 «Aliance Production». Все права защищены.</p>
-        <a href="#!" class="footer__policy">Политики конфиденциальности</a>
-        <a href="#!" class="footer__developer">Сделано в 
-          <img src="./img/ruso.png" alt="">
-        </a>
-      </div>
+  <div class="modal" id="modal" popover>
+    <div class="modal__heading">
+      <h2 class="modal__title">Есть вопросы?</h2>
+      <button class="modal__close" popovertarget="modal">
+        <svg class="notify-icon" width="50" height="50">
+          <use href="img/sprite.svg#close"></use>
+        </svg>
+      </button>
     </div>
-  </footer>
-
-    <div class="modal" id="modal" popover>
-      <div class="modal__heading">
-        <h2 class="modal__title">Есть вопросы?</h2>
-        <button class="modal__close" popovertarget="modal">
-          <svg class="notify-icon" width="50" height="50">
-            <use href="img/sprite.svg#close"></use>
-          </svg>
-        </button>
+    <p class="modal__text">
+      Оставьте заявку, наш менеджер свяжется с Вами в ближайшее время ответит на все интересующие вопросы и
+      поможем даже в
+      самых сложных случаях!
+    </p>
+    <form action="#" class="modal__form">
+      <div class="modal__form-inputs">
+        <div class="modal__form-input">
+          <input id="modal-user-name" type="text" class="modal__input" placeholder="">
+          <label class="modal__input-label" for="modal-user-name">Имя</label>
+        </div>
+        <div class="modal__form-input">
+          <input id="modal-user-phone" type="tel" class="modal__input" placeholder="">
+          <label class="modal__input-label" for="modal-user-phone">Номер телефона</label>
+        </div>
       </div>
-      <p class="modal__text">
-        Оставьте заявку, наш менеджер свяжется с Вами в ближайшее время ответит на все интересующие вопросы и
-        поможем даже в
-        самых сложных случаях!
-      </p>
-      <form action="#" class="modal__form">
-        <div class="modal__form-inputs">
-          <div class="modal__form-input">
-            <input id="modal-user-name" type="text" class="modal__input" placeholder="">
-            <label class="modal__input-label" for="modal-user-name">Имя</label>
-          </div>
-          <div class="modal__form-input">
-            <input id="modal-user-phone" type="tel" class="modal__input" placeholder="">
-            <label class="modal__input-label" for="modal-user-phone">Номер телефона</label>
-          </div>
+      <div class="modal__form-actions">
+        <button class="modal__form-btn btn" type="submit">Отправить заявку</button>
+        <div class="modal__form-notify">
+          <svg class="notify-icon" width="14" height="14">
+            <use href="img/sprite.svg#shield"></use>
+          </svg>
+          <p>
+            Обращаясь к нам вы получаете не только профессиональную работу, но и абсолютную конфиденциальность
+            информации!
+          </p>
         </div>
-        <div class="modal__form-actions">
-          <button class="modal__form-btn btn" type="submit">Отправить заявку</button>
-          <div class="modal__form-notify">
-            <svg class="notify-icon" width="14" height="14">
-              <use href="img/sprite.svg#shield"></use>
-            </svg>
-            <p>
-              Обращаясь к нам вы получаете не только профессиональную работу, но и абсолютную конфиденциальность
-              информации!
-            </p>
-          </div>
-        </div>
-      </form>
-    </div>
+      </div>
+    </form>
+  </div>
 
   <script src="js/swiper-bundle.min.js"></script>
   <script src="js/main.js"></script>
 </body>
+
 </html>
